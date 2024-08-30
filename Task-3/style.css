@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right bottom,black ,rgba(255, 255, 255, 0.703), gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-shadow: 3px 3px gray;
+    font-weight: 900;
+}
+
+.converter_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 7px solid gray;
+    box-shadow: 3px 7px 7px 11px rgb(255, 255, 255);
+    text-align: center;
+}
+
+#temperature, #unit{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid gray;
+}
+
+button{
+    border: 3px solid black;
+    width: 13vw;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #0077b6;
+    font-size: large;
+}
+
+button:active{
+    background-color: rgb(99, 71, 19);
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+#resultDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.79);
+    height: 10vh;
+    line-height: 10vh;
+    border-radius: 7px;
+    border: 3px solid black;
+}
